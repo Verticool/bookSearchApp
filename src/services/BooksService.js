@@ -4,7 +4,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchDataFromApi = createAsyncThunk(
     'data/fetchDataFromApi',
     async (_, thunkAPI) => {
-        const _apiKey = 'AIzaSyBM_XzfPL4M_HY_dQeBu7EqoyW9gMjEQgA';
+        const _apiKey = '';
         const _apiBase = 'https://www.googleapis.com/books/v1/';
 
 
